@@ -171,7 +171,7 @@ While 1
 			;Нажимаем кнопку играть
 			Global $oIE2 = _IECreate("https://ru.4game.com/lineage2classic/play")
 			_IELoadWait ($oIE2)
-			Sleep(4000)
+			Sleep($pause)
 			Local $play = _IEGetObjById ($oIE2, "jsBtnPlay")
 			_IEAction ($play,"click")
 		 Send("{ENTER}")
@@ -207,7 +207,7 @@ While 1
 			;Нажимаем кнопку играть
 			Global $oIE2 = _IECreate("https://ru.4game.com/lineage2classic/play")
 			_IELoadWait ($oIE2)
-			Sleep(4000)
+			Sleep($pause2)
 			Local $play = _IEGetObjById ($oIE2, "jsBtnPlay")
 			_IEAction ($play,"click")
 		 Send("{ENTER}")
@@ -243,7 +243,7 @@ While 1
 			;Нажимаем кнопку играть
 			Global $oIE2 = _IECreate("https://ru.4game.com/lineage2classic/play")
 			_IELoadWait ($oIE2)
-			Sleep(4000)
+			Sleep($pause3)
 			Local $play = _IEGetObjById ($oIE2, "jsBtnPlay")
 			_IEAction ($play,"click")
 		 Send("{ENTER}")
@@ -279,7 +279,7 @@ While 1
 			;Нажимаем кнопку играть
 			Global $oIE2 = _IECreate("https://ru.4game.com/lineage2classic/play")
 			_IELoadWait ($oIE2)
-			Sleep(4000)
+			Sleep($pause4)
 			Local $play = _IEGetObjById ($oIE2, "jsBtnPlay")
 			_IEAction ($play,"click")
 		 Send("{ENTER}")
@@ -315,7 +315,7 @@ While 1
 			;Нажимаем кнопку играть
 			Global $oIE2 = _IECreate("https://ru.4game.com/lineage2classic/play")
 			_IELoadWait ($oIE2)
-			Sleep(4000)
+			Sleep($pause3)
 			Local $play = _IEGetObjById ($oIE2, "jsBtnPlay")
 			_IEAction ($play,"click")
 		 Send("{ENTER}")
